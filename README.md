@@ -77,8 +77,10 @@ BarberX Salon is a premium recognized grooming destination committed to redefini
    npm install
    ```
 
-3. **Strip Payment 
-   Update database credentials and Stripe API keys in the `.env` file
+3. **Configure environment
+.env.example > .env
+php artisan key:generate
+Update database credentials and Stripe API keys in the .env file
 
 4. **Run migrations and seed database**
    ```bash
